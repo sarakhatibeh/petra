@@ -2,16 +2,22 @@
 body{background-image: url(https://www.alaraby.co.uk/sites/default/files/media/images/FF8DE37C-CB8A-4A34-AEEA-75629934DFDF.jpg)
 
  }
+ header div img {width:=25%;} 
+
   header nav  {float : right;
   color: beige;
-  text-decoration: none;}
-
+  }
+h1{width:50%;}
  h2{ text-align: center}
 
  header{color: white;}
  main{color: white;}
  
-
+#nav-content{
+text-decoration: none;
+color: white;
+height: 10px;
+}
  h2 #sa {display: inline-block}
 
 footer{ color: white;
