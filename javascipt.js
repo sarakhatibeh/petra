@@ -29,25 +29,25 @@ var favPlace = prompt("Favorite tourist areas in Jordan : Dead sea, Aqaba, Petra
 
 var x = prompt("how many times do you want to see a camel image ?")
 
-// var camelFun = function () {
-//   var output='';
-//   var i = 0;
-//   while (i < x) {
+var camelFun = function () {
+  var output='';
+  var i = 0;
+  while (i < x) {
     
-//    output = output +  "<img src='https://www.tripsavvy.com/thmb/h1q2GeTSADs-0HXy-HcMMWb_u34=/1885x1414/smart/filters:no_upscale()/GettyImages-529579912-5822cbe83df78c6f6add2b85.jpg' />"
+   output = output + document.write( "<img src='https://www.tripsavvy.com/thmb/h1q2GeTSADs-0HXy-HcMMWb_u34=/1885x1414/smart/filters:no_upscale()/GettyImages-529579912-5822cbe83df78c6f6add2b85.jpg' />")
 
-//     // console.log(i,output)
+    // console.log(i,output)
 
-//     i++;
-//   }
+    i++;
+  }
 
-//   return output;
+  return output;
 
-// }
-
-
-for(var i=0 ;i<x;i++){
-
-
-    document.write("<img src='https://www.tripsavvy.com/thmb/h1q2GeTSADs-0HXy-HcMMWb_u34=/1885x1414/smart/filters:no_upscale()/GettyImages-529579912-5822cbe83df78c6f6add2b85.jpg'/>")
 }
+camelFun()
+
+// for(var i=0 ;i<x;i++){
+
+
+//     document.write("<img src='https://www.tripsavvy.com/thmb/h1q2GeTSADs-0HXy-HcMMWb_u34=/1885x1414/smart/filters:no_upscale()/GettyImages-529579912-5822cbe83df78c6f6add2b85.jpg'/>")
+// }
